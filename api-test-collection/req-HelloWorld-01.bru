@@ -1,0 +1,17 @@
+meta {
+  name: req-HelloWorld-01
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/HelloWorld/01
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "message": "Hello AHHH i speak!"
+  }
+}
